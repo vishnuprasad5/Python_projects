@@ -14,9 +14,6 @@ mycursor = mydb.cursor()
 mycursor.execute('SELECT * FROM DATA_BASE')
 data_base = mycursor.fetchall()
 
-for i in data_base:
-    print(i)
-
 def main():
     print('\nAlready a user ? '
           '\n---------------'
